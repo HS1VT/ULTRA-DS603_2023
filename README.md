@@ -1,7 +1,7 @@
 # ULTRA-pytorch
 
 
-Official Pytorch Code for the paper ["ULTRA：Uncertainty-aware Label Distribution Learning for Breast Tumor Cellularity Assessment"](https://arxiv.org/abs/2206.06623) , presented at MICCAI 2022.
+Pytorch Code for the paper ["ULTRA：Uncertainty-aware Label Distribution Learning for Breast Tumor Cellularity Assessment"](https://arxiv.org/abs/2206.06623) , presented at MICCAI 2022. This code has been modified to suit the needs of the course DS601: Advanced Machine Learning at IIT Bhilai.
 
 
 
@@ -25,17 +25,10 @@ uncertainties of TC labels. We evaluated the ULTRA on the public BreastPathQ dat
 
 ### Downloading  datasets:
 
-1) SPIE-AAPM-NCI BreastPathQ Dataset - <a href="https://breastpathq.grand-challenge.org/"> Challenge Link  </a>| <a href = "https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=52758117#527581177c5a8c0c0cef44e488b824bd7de60428 
-"> Whole Slide Imaging (WSI) Link</a>  
+We have used the dataset provided by PAIP 2023: Tumor cellularity prediction in pancreatic cancer (supervised learning) and colon cancer (transfer learning). The dataset can be downloaded from their website.
 
 # How to Us this Code
 
-### Clone this repository:
-
-```bash
-git clone git@github.com:PerceptionComputingLab/ULTRA.git
-cd ULTRA/src
-```
 
 
 ### Dataset Preparation
